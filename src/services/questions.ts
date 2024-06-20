@@ -1,6 +1,5 @@
-export const getAllQuestions = async () => {
-  const res = await fetch('../data.json')
-  const json = await res.json()
-  const questions = json.questions
+import { questions } from '../data.json'
+
+export const getAllQuestions = () => {
   return questions
 }
