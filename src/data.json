@@ -1,0 +1,605 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the output of this code?",
+        "code": "console.log(typeof NaN)",
+        "answers": [
+          "undefined",
+          "Nan",
+          "string",
+          "number"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 2,
+        "question": "What is the output of this code?",
+        "code": "console.log([] + [])",
+        "answers": [
+          "[]",
+          "empty string",
+          "NaN",
+          "undefined"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 3,
+        "question": "What is the output of this code?",
+        "code": "console.log('5' - 3)",
+        "answers": [
+          "2",
+          "8",
+          "53",
+          "NaN"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 4,
+        "question": "What is the output of this code?",
+        "code": "console.log(0.1 + 0.2 == 0.3)",
+        "answers": [
+          "true",
+          "false",
+          "NaN",
+          "undefined"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 5,
+        "question": "Which of the following is not a primitive data type in JavaScript?",
+        "code": "",
+        "answers": [
+          "String",
+          "Number",
+          "Boolean",
+          "Object"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 6,
+        "question": "What is the output of this code?",
+        "code": "console.log(typeof null)",
+        "answers": [
+          "object",
+          "null",
+          "undefined",
+          "number"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 7,
+        "question": "What is the value of `x`?",
+        "code": "let x = 5;\nx = ++x + x++;",
+        "answers": [
+          "11",
+          "12",
+          "13",
+          "10"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 8,
+        "question": "What is the output of this code?",
+        "code": "console.log([1, 2, 3] + [4, 5, 6])",
+        "answers": [
+          "1,2,3,4,5,6",
+          "123456",
+          "[1, 2, 3, 4, 5, 6]",
+          "1,2,34,5,6"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 9,
+        "question": "Which of the following is used to declare a constant in JavaScript?",
+        "code": "",
+        "answers": [
+          "const",
+          "var",
+          "let",
+          "constant"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 10,
+        "question": "What is the output of this code?",
+        "code": "console.log([] == false)",
+        "answers": [
+          "true",
+          "false",
+          "error",
+          "undefined"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 11,
+        "question": "Which of the following methods can be used to create a new array from an existing array?",
+        "code": "",
+        "answers": [
+          "Array.create",
+          "Array.new",
+          "Array.from",
+          "Array.make"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 12,
+        "question": "What is the output of this code?",
+        "code": "console.log(typeof undefined == typeof NULL)",
+        "answers": [
+          "true",
+          "false",
+          "error",
+          "undefined"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 13,
+        "question": "Which of the following is not a reserved word in JavaScript?",
+        "code": "",
+        "answers": [
+          "interface",
+          "throws",
+          "program",
+          "short"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 14,
+        "question": "What is the output of this code?",
+        "code": "console.log('2' + 2 - '2')",
+        "answers": [
+          "222",
+          "2",
+          "20",
+          "NaN"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 15,
+        "question": "What is the output of this code?",
+        "code": "console.log(1 + '1' - 1)",
+        "answers": [
+          "0",
+          "1",
+          "10",
+          "11"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 16,
+        "question": "Which of the following is not a valid JavaScript variable name?",
+        "code": "",
+        "answers": [
+          "2names",
+          "_first_and_last_names",
+          "FirstAndLast",
+          "None of the above"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 17,
+        "question": "What is the output of this code?",
+        "code": "console.log(0 == '0')",
+        "answers": [
+          "true",
+          "false",
+          "error",
+          "undefined"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 18,
+        "question": "What is the output of this code?",
+        "code": "console.log(Boolean('false'))",
+        "answers": [
+          "true",
+          "false",
+          "undefined",
+          "NaN"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 19,
+        "question": "Which of the following is a method to parse a string to an integer in JavaScript?",
+        "code": "",
+        "answers": [
+          "parseInt()",
+          "Integer.parse()",
+          "parse()",
+          "int()"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 20,
+        "question": "What is the output of this code?",
+        "code": "console.log('5' + 5)",
+        "answers": [
+          "10",
+          "55",
+          "NaN",
+          "Error"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 21,
+        "question": "Which of the following is not a JavaScript data type?",
+        "code": "",
+        "answers": [
+          "Number",
+          "String",
+          "Float",
+          "Boolean"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 22,
+        "question": "What is the output of this code?",
+        "code": "console.log(!!false == !!'false')",
+        "answers": [
+          "true",
+          "false",
+          "error",
+          "undefined"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 23,
+        "question": "Which of the following is not a looping structure in JavaScript?",
+        "code": "",
+        "answers": [
+          "for",
+          "while",
+          "until",
+          "do-while"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 24,
+        "question": "What is the output of this code?",
+        "code": "console.log('5' - '2')",
+        "answers": [
+          "3",
+          "52",
+          "NaN",
+          "Error"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 25,
+        "question": "Which of the following methods can be used to remove the first element from an array?",
+        "code": "",
+        "answers": [
+          "shift()",
+          "pop()",
+          "remove()",
+          "splice()"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 26,
+        "question": "What is the output of this code?",
+        "code": "console.log('7' > 7)",
+        "answers": [
+          "true",
+          "false",
+          "error",
+          "undefined"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 27,
+        "question": "Which of the following is a way to declare a function in JavaScript?",
+        "code": "",
+        "answers": [
+          "function myFunction() {}",
+          "var myFunction = function() {}",
+          "const myFunction = () => {}",
+          "All of the above"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 28,
+        "question": "What is the output of this code?",
+        "code": "console.log([] == false)",
+        "answers": [
+          "true",
+          "false",
+          "error",
+          "undefined"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 29,
+        "question": "Which of the following is the correct way to create an array in JavaScript?",
+        "code": "",
+        "answers": [
+          "var arr = new Array();",
+          "var arr = [];",
+          "Both of the above",
+          "None of the above"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 30,
+        "question": "What is the output of this code?",
+        "code": "console.log([1] + [1,2,3])",
+        "answers": [
+          "1,1,2,3",
+          "1123",
+          "[1, 1, 2, 3]",
+          "11,2,3"
+        ],
+        "correctAnswer": 23
+      },
+      {
+        "id": 31,
+        "question": "Which of the following methods can be used to add an element to the end of an array?",
+        "code": "",
+        "answers": [
+          "shift()",
+          "pop()",
+          "push()",
+          "unshift()"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 32,
+        "question": "What is the output of this code?",
+        "code": "console.log('1' - - '1')",
+        "answers": [
+          "2",
+          "11",
+          "NaN",
+          "0"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 33,
+        "question": "What is the output of this code?",
+        "code": "console.log({} + [])",
+        "answers": [
+          "0",
+          "NaN",
+          "[object Object]",
+          "empty string"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 34,
+        "question": "Which of the following is a way to define a class in JavaScript?",
+        "code": "",
+        "answers": [
+          "class MyClass {}",
+          "var MyClass = class {}",
+          "Both of the above",
+          "None of the above"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 35,
+        "question": "What is the output of this code?",
+        "code": "console.log('1' + 1 - '1')",
+        "answers": [
+          "1",
+          "10",
+          "0",
+          "NaN"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 36,
+        "question": "Which of the following is the correct syntax to access the length of an array?",
+        "code": "",
+        "answers": [
+          "array.length()",
+          "array.length",
+          "array.size",
+          "array.size()"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 37,
+        "question": "What is the output of this code?",
+        "code": "console.log([1, 2] + [3, 4])",
+        "answers": [
+          "1,2,3,4",
+          "1234",
+          "[1, 2, 3, 4]",
+          "1,23,4"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 38,
+        "question": "Which of the following is the correct way to create an object in JavaScript?",
+        "code": "",
+        "answers": [
+          "var obj = {};",
+          "var obj = Object.create(null);",
+          "Both of the above",
+          "None of the above"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 39,
+        "question": "What is the output of this code?",
+        "code": "console.log(typeof typeof 1)",
+        "answers": [
+          "number",
+          "string",
+          "undefined",
+          "object"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 40,
+        "question": "Which of the following is a valid way to create an instance of a Date object?",
+        "code": "",
+        "answers": [
+          "new Date()",
+          "Date()",
+          "new Date(dateString)",
+          "All of the above"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "id": 41,
+        "question": "What is the output of this code?",
+        "code": "console.log([] + {})",
+        "answers": [
+          "0",
+          "NaN",
+          "[object Object]",
+          "empty string"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 42,
+        "question": "Which of the following methods can be used to combine two or more arrays?",
+        "code": "",
+        "answers": [
+          "concat()",
+          "combine()",
+          "attach()",
+          "append()"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 43,
+        "question": "What is the output of this code?",
+        "code": "console.log(false == 'false')",
+        "answers": [
+          "true",
+          "false",
+          "error",
+          "undefined"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 44,
+        "question": "Which of the following is the correct way to check if a variable is an array?",
+        "code": "",
+        "answers": [
+          "Array.isArray(var)",
+          "var.isArray()",
+          "isArray(var)",
+          "None of the above"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 45, 
+        "question": "What is the output of this code?",
+        "code": "console.log({} + 1)",
+        "answers": [
+          "1",
+          "NaN",
+          "[object Object]1",
+          "empty string"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "id": 46,
+        "question": "Which of the following methods can be used to remove the last element from an array?",
+        "code": "",
+        "answers": [
+          "shift()",
+          "pop()",
+          "remove()",
+          "splice()"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "id": 47,
+        "question": "What is the output of this code?",
+        "code": "console.log('10' - 5)",
+        "answers": [
+          "5",
+          "105",
+          "NaN",
+          "error"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 48,
+        "question": "Which of the following methods can be used to join two or more strings?",
+        "code": "",
+        "answers": [
+          "concat()",
+          "combine()",
+          "attach()",
+          "append()"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 49,
+        "question": "What is the output of this code?",
+        "code": "console.log('10' > 5)",
+        "answers": [
+          "true",
+          "false",
+          "NaN",
+          "error"
+        ],
+        "correctAnswer": 0
+      },
+      {
+        "id": 50,
+        "question": "Which of the following is the correct way to check if a variable is undefined?",
+        "code": "",
+        "answers": [
+          "typeof var === 'undefined'",
+          "var.isUndefined()",
+          "isUndefined(var)",
+          "None of the above"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  }
+  
