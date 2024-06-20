@@ -7,14 +7,3 @@
 - State mnaged with Zustand store and pesist middleware in local storge
 - And OFC, we have canvas confetti!!
 
-# React + TypeScript + Vite with SWC compilation
-
-npm install @mui/material @emotion/react @emotion/styled
-
-npm install @fontsource/roboto @mui/icons-material -E
-
-________________________________________________
-
-
-
-npm install ts-standard -D

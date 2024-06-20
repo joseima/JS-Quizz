@@ -22,3 +22,16 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# # React + TypeScript + Vite with SWC compilation
+
+# For material deps:
+
+# npm install @mui/material @emotion/react @emotion/styled
+
+# npm install @fontsource/roboto @mui/icons-material -E
+
+# ________________________________________________
+
+# For 
+# npm install ts-standard -D

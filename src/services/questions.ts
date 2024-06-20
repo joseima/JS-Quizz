@@ -1,4 +1,4 @@
-export const getAllQuestions = async (limit: number) => {
+export const getAllQuestions = async () => {
   const res = await fetch('../data.json')
   const json = await res.json()
   const questions = json.questions

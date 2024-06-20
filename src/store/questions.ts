@@ -19,7 +19,7 @@ export const useQuestionsStore = create<State>()(persist((set, get) => {
     questions: [],
     currentQuestion: 0,
     fetchQuestions: async (limit: number) => {
-      const json = await getAllQuestions(limit)
+      const json = await getAllQuestions()
       const questions = json.sort(() => Math.random() - 0.5).slice(0, limit)
       set({ questions })
     },
