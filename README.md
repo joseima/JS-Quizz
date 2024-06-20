@@ -7,3 +7,4 @@
 - State mnaged with Zustand store and pesist middleware in local storge
 - And OFC, we have canvas confetti!!
 
+<a href="https://java-script-quizz.netlify.app/">TRY IT!</a>
